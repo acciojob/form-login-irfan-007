@@ -1,7 +1,7 @@
-function getFormvalue() {
+function getFormvalue(e) {
     //Write your code here
-	let fname=input["fname"];
-	let lname=input["lname"];
+	let fname=e.target.fname;
+	let lname=e.target.lname;
 	window.alert(fname+" "+lname)
 
 }
